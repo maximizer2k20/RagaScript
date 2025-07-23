@@ -1,0 +1,5 @@
+// Different types of musical data
+shruti totalShrutis = 22;           // Number (22 shrutis in saptak)
+ragam ragaNama = "Mayamalavagowla"; // Text/String (Raga 15)
+gayaki isPerformed = true;          // Yes/No (Boolean)
+melakartha ragaNumber = 15;         // Raga classification number
