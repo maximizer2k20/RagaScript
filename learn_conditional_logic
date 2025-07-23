@@ -1,0 +1,15 @@
+raga// Musical decision making based on raga rules
+ragaLakshana (currentSwara, ragaNama) {
+    case sa: 
+        if (ragaNama == "Shankarabharanam") {
+            return ri_chatushruthi, ga_antara; //chatushruthi rishabham is R2, antara gandharam is G3
+        } else if (ragaNama == "Kharaharapriya") {
+            return ri_chatushruthi, ga_sadharana; // chatushruthi rishabham is R2, Sadharana Gandhara is G2
+        }
+    case ma:
+        if (ragaNama == "Kalyani") {
+            return ma_prati;  // Prati madhyama in Kalyani
+        } else {
+            return ma_shuddha; // Shuddha madhyama
+        }
+}
