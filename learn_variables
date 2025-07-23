@@ -1,0 +1,4 @@
+// Just like establishing your adhara shadja
+sa adharaShadja = 261.63;     // This never changes (constant)
+ri chatushruti = 293.66;      // This can change (variable)
+
